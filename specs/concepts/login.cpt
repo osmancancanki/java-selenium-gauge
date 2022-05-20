@@ -1,0 +1,17 @@
+# Go to login page
+* Wait for element "login_button" then click
+
+# Enter username and password info
+* Wait for element "login_email_input" then click
+* Enter "testuser" value to "login_email_input" input
+* Wait for element "login_password_input" then click
+* Enter "test123" value to "login_password_input" input
+
+# Enter wrong username and password info
+* Wait for element "login_email_input" then click
+* Enter "testuser" value to "login_email_input" input
+* Wait for element "login_password_input" then click
+* Enter "test" value to "login_password_input" input
+
+# Click login button
+* Wait for element "login_submit_button" then click
